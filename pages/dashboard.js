@@ -57,9 +57,9 @@ const Dashboard = () => {
   return (
     <div>
       <div className='flex mt-10 justify-between'>
-        <h2 className='text-xl font-medium bg-blue-400 text-white px-10 py-5 rounded-t-xl'>Your posts</h2>
+        <h2 className='text-md font-medium bg-blue-400 text-white px-8 py-3 rounded-t-xl'>Your posts</h2>
         <button
-          className='text-xl font-medium  text-blue-400 py-5 px-10'
+          className='text-md font-medium  text-blue-400 py-3 px-8'
           onClick={() => auth.signOut()}
         >
           Signout

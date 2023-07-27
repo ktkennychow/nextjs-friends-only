@@ -19,7 +19,7 @@ const Nav = () => {
 					</Link>
 				)}
 				{user && (
-					<div className='flex items-center gap-6'>
+					<div className='flex items-center gap-4'>
 						<Link href='/post'>
 							<button className='py-2 px-4 text-sm bg-white text-blue-300 rounded-mg font-medium rounded-md'>
 								Post

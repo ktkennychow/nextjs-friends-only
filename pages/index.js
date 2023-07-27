@@ -36,8 +36,8 @@ export default function Home() {
         />
       </Head>
 
-      <h2 className='inline-block text-xl font-medium border-blue-400 border-8 border-b-0 text-blue-400 py-4 px-8 mt-10 rounded-t-xl'>See what other people are saying</h2>
-      <div className='mb-12 bg-blue-400 p-10 flex flex-col gap-5 rounded-md rounded-tl-none'>
+      <h2 className='inline-block text-md font-medium border-blue-400 border-4 border-b-0 text-blue-400 py-2.5 px-6 mt-10 rounded-t-xl'>See what other people are saying</h2>
+      <div className='mb-12 bg-blue-400 p-10 flex flex-col gap-5 rounded-xl rounded-tl-none'>
         {allPosts.length === 0 &&
           (<div className="bg-white p-8 border-b-2 rounded-lg">
             There is no post yet or your are not signed in
