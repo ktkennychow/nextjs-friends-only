@@ -72,7 +72,7 @@ const Details = () => {
 					></input>
 					<button
 						onClick={subComment}
-						className='bg-cyan-500 text-white py-2 px-4 text-sm'
+						className='bg-blue-500 text-white py-2 px-4 text-sm'
 					>
 						Submit
 					</button>

@@ -11,8 +11,7 @@ const Post = () => {
 	const [user, loading] = useAuthState(auth);
 	const router = useRouter();
 	const routerData = router.query;
-	console.log(router);
-	//Submit Post
+
 	const submitPost = async (e) => {
 		e.preventDefault();
 		// Run checks for description
@@ -64,8 +63,8 @@ const Post = () => {
 		}
 	};
 
-	// Check current user
-	const checkUser = async () => {
+
+	const checkCurrentUser = async () => {
 		if (loading) {
 			return;
 		}
@@ -78,7 +77,7 @@ const Post = () => {
 	};
 
 	useEffect(() => {
-		checkUser();
+		checkCurrentUser();
 	}, [user, loading]);
 
 	return (
@@ -97,7 +96,7 @@ const Post = () => {
 						className='bg-gray-800 h-48 w-full text-white rounded-lg p-2 text-sm'
 					></textarea>
 					<p
-						className={`text-cyan-600 font-medium text-sm ${
+						className={`text-blue-600 font-medium text-sm ${
 							post.description.length > 300 ? "text-red-600" : ""
 						}`}
 					>
@@ -106,7 +105,7 @@ const Post = () => {
 				</div>
 				<button
 					type='submit'
-					className='w-full bg-cyan-600 text-white font-medium p-2 my-2 rounded-lg text-sm'
+					className='w-full bg-blue-600 text-white font-medium p-2 my-2 rounded-lg text-sm'
 				>
 					Submit
 				</button>
