@@ -1,8 +1,13 @@
 This product is made with
+
 Next.js 13.3.0 bootstrapped with [`create-next-app`] (page router)
+
 React
+
 TailwindCSS
+
 Firebase
+
 
 My own Friend Board is live on [https://nextjs12-friend-board.vercel.app/](https://nextjs12-friend-board.vercel.app/)
 Come say hi!
