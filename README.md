@@ -40,6 +40,6 @@ Make a new .env file in the root directory and follow this tutorial by freeCodeC
 
 You will need to explore a little bit about how Nextjs and FireBase work.
 
-Don't forget to add NEXT_PUBLIC_INVITECODE=*YOURINVITECODE in your .env file for development and in the env variables setting on the deployment platform of your choice.
+Don't forget to add NEXT_PUBLIC_INVITECODE=*YOURINVITECODE in your .env file for development. Also, add it to the env variables setting on the deployment platform of your choice.
 
 Have fun!
