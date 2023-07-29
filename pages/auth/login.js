@@ -33,10 +33,10 @@ const Login = () => {
   }, [user]);
 
   return (
-    <div className=' mt-32 p-10 text-white rounded-lg shadow-xl shadow-blue-500 hover:shadow-blue-600'>
+    <div className='p-10 text-white rounded-lg shadow-xl shadow-blue-500 hover:shadow-blue-600'>
       {secretInput === secret ?
         <>
-          <h2 className='text-2xl font-medium'>Join Today</h2>
+          <h2 className=' font-medium'>Welcome to this my secret message board 🤫</h2>
           <div className='py-4'>
             <button
               onClick={GoogleLogin}
@@ -51,7 +51,7 @@ const Login = () => {
           <form >
             <label className=''>
               Invitation Code: {''}
-              <input type="text" value={secretInput} onChange={(e)=> setSecretInput(e.target.value)} placeholder={`maybe your friend's birthday?`} className='p-2 rounded-md w-full text-gray-500' />
+              <input type="text" value={secretInput} onChange={(e)=> setSecretInput(e.target.value)} placeholder={`maybe your friend's birthday?`} className='p-4 rounded-md w-full text-gray-500 my-4' />
             </label>
           </form>
         </>

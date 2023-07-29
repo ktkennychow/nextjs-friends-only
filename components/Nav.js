@@ -6,9 +6,9 @@ const Nav = () => {
 	const [user, loading] = useAuthState(auth);
 
 	return (
-    <nav className='flex justify-between items-center p-10 mt-10 bg-blue-400 rounded-md shadow-xl shadow-blue-500 hover:shadow-blue-600'>
+    <nav className='flex justify-between items-center p-10 mt-10 bg-blue-400 rounded-md shadow-xl shadow-blue-500 hover:shadow-blue-600 h-36'>
 			<Link href={"/"} className='text-lg font-medium'>
-				<button className='text-3xl font-medium text-white'>Friend Board</button>
+				<button className='text-3xl font-medium text-white'>OnlyFriends</button>
 			</Link>
 			<div className='flex items-center gap-10'>
 				{!user && (
