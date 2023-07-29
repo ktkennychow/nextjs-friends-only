@@ -15,7 +15,7 @@ This is built with Next.js 13.3.0 bootstrapped with [`create-next-app`] (page ro
 
 ## If you insist
 
-My own Friend Board is live on [https://nextjs12-friend-board.vercel.app/](https://nextjs12-friend-board.vercel.app/).
+My own Friend Board is live at [https://nextjs-friend-board.vercel.app/](https://nextjs12-friend-board.vercel.app/).
 
 My birthday is December 11th 😉.
 
