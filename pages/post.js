@@ -81,22 +81,21 @@ const Post = () => {
 	}, [user, loading]);
 
 	return (
-		<div className='my-20 p-12 shadow-lg rounded-lg max-w-md mx-auto'>
+    <div className='my-20 p-12 rounded-lg max-w-md mx-auto shadow-xl shadow-blue-500 hover:shadow-blue-600 text-white'>
 			<form onSubmit={submitPost}>
-				<h1 className='text-2xl font-bold'>
+				<h1 className='text-2xl'>
 					{routerData.id ? "Edit your post" : "Create a new post"}
 				</h1>
 				<div className='py-2'>
-					<h3 className='text-lg font-medium py-2'>Description</h3>
 					<textarea
 						value={post.description}
 						onChange={(e) =>
 							setPost({ ...post, description: e.target.value })
 						}
-						className='bg-gray-800 h-48 w-full text-white rounded-lg p-2 text-sm'
+            className='bg-blue-300 h-48 w-full rounded-lg p-2 text-sm shadow-inner shadow-blue-600 hover:shadow-blue-700'
 					></textarea>
 					<p
-						className={`text-blue-600 font-medium text-sm ${
+						className={`font-medium text-sm ${
 							post.description.length > 300 ? "text-red-600" : ""
 						}`}
 					>
@@ -105,7 +104,7 @@ const Post = () => {
 				</div>
 				<button
 					type='submit'
-					className='w-full bg-blue-600 text-white font-medium p-2 my-2 rounded-lg text-sm'
+          className='w-full bg-blue-500 font-medium p-2 my-2 rounded-lg text-sm shadow-md shadow-blue-500 hover:shadow-blue-600'
 				>
 					Submit
 				</button>

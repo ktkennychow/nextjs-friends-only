@@ -55,11 +55,12 @@ const Dashboard = () => {
   }, [user, loading]);
 
   return (
-    <div>
-      <div className='flex mt-10 justify-between'>
-        <h2 className='text-md font-medium bg-blue-400 text-white px-8 py-3 rounded-t-xl'>Your posts</h2>
+    <div className='shadow-xl shadow-blue-500 hover:shadow-blue-600 rounded-md'>
+      <div className='flex mt-10 justify-between mx-10'>
+        <h2 className='text-md font-medium bg-white text-blue-400 px-8 py-3 rounded-t-xl'>Your posts</h2>
+
         <button
-          className='text-md font-medium  text-blue-400 py-3 px-8'
+          className='text-md font-medium  text-white py-3 px-8 bg-blue-500 rounded-xl shadow-md shadow-blue-500 hover:shadow-blue-600'
           onClick={() => auth.signOut()}
         >
           Signout

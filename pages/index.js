@@ -25,9 +25,8 @@ export default function Home() {
     getPosts();
   }, []);
 
-  console.log(allPosts)
   return (
-    <div className=''>
+    <div className='shadow-xl shadow-blue-500 hover:shadow-blue-600 rounded-md'>
       <Head>
         <title>Friend Board</title>
         <meta
@@ -35,8 +34,7 @@ export default function Home() {
           content='Connect with your friends'
         />
       </Head>
-
-      <h2 className='inline-block text-md font-medium border-blue-400 border-4 border-b-0 text-blue-400 py-2.5 px-6 mt-10 rounded-t-xl'>See what other people are saying</h2>
+      <h2 className='ml-10 inline-block text-md font-medium bg-white text-blue-400 py-3 px-6 mt-10 rounded-t-xl'>See what other people are saying</h2>
       <div className='mb-12 bg-blue-400 p-10 flex flex-col gap-5 rounded-xl rounded-tl-none'>
         {allPosts.length === 0 &&
           (<div className="bg-white p-8 border-b-2 rounded-lg">
