@@ -15,7 +15,7 @@ This is built with Next.js 13.3.0 bootstrapped with [`create-next-app`] (page ro
 
 ## If you insist
 
-My own Friend Board is live at [https://nextjs-friend-board.vercel.app/](https://nextjs-friend-board.vercel.app/).
+My own OnlyFriends message board is live at [https://nextjs-onlyfriends.vercel.app/](https://nextjs-onlyfriends.vercel.app/).
 
 My birthday is December 11th 😉.
 
@@ -46,7 +46,8 @@ Have fun!
 
 ## DISCLAIMER
 
-This open-sourced project is not associated with OnlyFans, there is no photo uploading feature nor charging features.
+This open-sourced project is not associated with OnlyFans, there is no photo uploading feature nor payment system in place.
 
-<sup><sup>No, don't do this with your friends, please.<sup><sup>
-<sup><sup>You know what, do whatever you want. Create a pull request if you built an uploading feature...<sup><sup>
+<sup><sup>No, don't use this project with your fans, please...<sup><sup>
+
+<sup><sup>You know what, do whatever you want. Create a pull request if you built an uploading feature or payment system integration...<sup><sup>
