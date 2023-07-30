@@ -59,7 +59,7 @@ const Details = () => {
 	}, [router.isReady]);
 
 	return (
-		<div>
+		<div className='p-10'>
 			<Message {...routerData}></Message>
 			<div className='my-4'>
 				<div className='flex'>
@@ -68,20 +68,20 @@ const Details = () => {
 						type='text'
 						value={comment}
 						placeholder='Leave a comment 📝'
-						className='bg-gray-800 text-white w-full p-2 text-sm'
+            className='bg-white text-zinc-600 w-full p-2 text-sm rounded-l-lg shadow-md shadow-blue-500 hover:shadow-blue-600'
 					></input>
 					<button
 						onClick={subComment}
-						className='bg-blue-500 text-white py-2 px-4 text-sm'
+            className='bg-blue-500 text-white py-2 px-4 text-sm shadow-md shadow-blue-500 hover:shadow-blue-600 rounded-r-lg'
 					>
 						Submit
 					</button>
 				</div>
-				<div className='py-6'>
-					<h2 className='font-bold'>Comments</h2>
+				<div className='py-6 text-white'>
+					<h2>Comments</h2>
 					{allComments?.map((comment) => (
 						<div
-							className='bg-white p-4 my-4 border-2'
+              className='bg-blue-500 rounded-lg p-4 my-4  shadow-xl shadow-blue-500 hover:shadow-blue-600'
 							key={comment.timestamp}
 						>
 							<div className='flex items-center gap-2 mb-4'>

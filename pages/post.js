@@ -88,11 +88,12 @@ const Post = () => {
 				</h1>
 				<div className='py-2'>
 					<textarea
+          placeholder='Say someting'
 						value={post.description}
 						onChange={(e) =>
 							setPost({ ...post, description: e.target.value })
 						}
-            className='bg-blue-300 h-48 w-full rounded-lg p-2 text-sm shadow-inner shadow-blue-600 hover:shadow-blue-700'
+            className='bg-white h-48 w-full rounded-lg p-2 text-sm shadow-inner shadow-blue-600 hover:shadow-blue-700 text-zinc-500'
 					></textarea>
 					<p
 						className={`font-medium text-sm ${
