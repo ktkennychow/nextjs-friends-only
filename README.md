@@ -47,4 +47,5 @@ Have fun!
 ## DISCLAIMER
 This open sourced project is not associated with OnlyFans, there is no photo uploading feature nor charging features. 
 
-#### No, DON'T do this with your friends, please.
+<sup>No, DON'T do this with your friends, please.<sup>
+<sup>You know what do as you want. Not judging<sup>
