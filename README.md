@@ -15,7 +15,7 @@ This is built with Next.js 13.3.0 bootstrapped with [`create-next-app`] (page ro
 
 ## If you insist
 
-My own Friend Board is live at [https://nextjs-friend-board.vercel.app/](https://nextjs12-friend-board.vercel.app/).
+My own Friend Board is live at [https://nextjs-friend-board.vercel.app/](https://nextjs-friend-board.vercel.app/).
 
 My birthday is December 11th 😉.
 
@@ -43,3 +43,10 @@ You will need to explore a little bit about how Nextjs and FireBase work.
 Don't forget to add NEXT_PUBLIC_INVITECODE=[`YOUR OWN INVITE CODE`] in your .env file for development. Also, add it to the env variables setting on the deployment platform of your choice.
 
 Have fun!
+
+## DISCLAIMER
+This open sourced project is not associated with OnlyFans, there is no photo uploading feature nor charging features. 
+
+<sup><sup>No, don't do this with your friends, please.<sup><sup>
+<sup><sup>You know what, do whatever you want. Create a pull request if you built an uploading feature...<sup><sup>
+
