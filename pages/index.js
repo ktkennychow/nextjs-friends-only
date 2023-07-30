@@ -28,13 +28,13 @@ export default function Home() {
   return (
     <div className='shadow-xl shadow-blue-500 hover:shadow-blue-600 rounded-md'>
       <Head>
-        <title>Friend Board</title>
+        <title>OnlyFriends</title>
         <meta
           name='description'
           content='Connect with your friends'
         />
       </Head>
-      <h2 className='ml-10 inline-block text-md font-medium bg-white text-blue-400 py-3 px-6 mt-10 rounded-t-xl'>See what other people are saying</h2>
+      <h2 className='ml-10 inline-block text-sm md:text-base font-medium bg-white text-blue-400 py-3 px-6 mt-10 rounded-t-xl'>See what's poppin'</h2>
       <div className='mb-12 bg-blue-400 p-10 flex flex-col gap-5 rounded-xl rounded-tl-none'>
         {allPosts.length === 0 &&
           (<div className="bg-white p-8 border-b-2 rounded-lg">

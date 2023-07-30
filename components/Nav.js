@@ -8,7 +8,7 @@ const Nav = () => {
 	return (
     <nav className='flex justify-between items-center p-10 mt-10 bg-blue-400 rounded-md shadow-xl shadow-blue-500 hover:shadow-blue-600 h-36'>
 			<Link href={"/"} className='text-lg font-medium'>
-				<button className='text-3xl font-medium text-white'>OnlyFriends</button>
+				<button className='text-md md:text-3xl font-medium text-white'>OnlyFriends</button>
 			</Link>
 			<div className='flex items-center gap-10'>
 				{!user && (
@@ -19,7 +19,7 @@ const Nav = () => {
 					</Link>
 				)}
 				{user && (
-					<div className='flex items-center gap-4'>
+					<div className='flex items-center gap-2'>
 						<Link href='/post'>
               <button className='py-2 px-4 text-sm bg-white text-blue-400 rounded-mg font-medium rounded-md shadow-md shadow-blue-500 hover:shadow-blue-600'>
 								Post
@@ -29,7 +29,7 @@ const Nav = () => {
 						<Link href='/dashboard'>
 							<img
 								src={user.photoURL}
-                className='w-16 rounded-full cursor-pointer border-4 border-white shadow-md shadow-blue-500 hover:shadow-blue-600'
+                className='w-10 md:w-16 rounded-full cursor-pointer border-4 border-white shadow-md shadow-blue-500 hover:shadow-blue-600'
 							/>
 						</Link>
 					</div>
