@@ -70,7 +70,7 @@ const Dashboard = () => {
         {posts.map((post) => {
           return (
             <Message key={post.id} {...post}>
-              <div className='flex gap-4 pt-4'>
+              <div className='flex gap-4'>
                 <Link href={{ pathname: "/post", query: post }}>
                   <button className='flex text-blue-600 items-center justify-center gap-2 text-sm'>
                     <AiFillEdit className='text-2xl' />
