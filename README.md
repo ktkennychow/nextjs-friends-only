@@ -48,5 +48,5 @@ Have fun!
 This open sourced project is not associated with OnlyFans, there is no photo uploading feature nor charging features. 
 
 <sup><sup>No, don't do this with your friends, please.<sup><sup>
-<sup><sup>You know what, Do whatever you want. Create a pull request if you built an uploading feature...<sup><sup>
+<sup><sup>You know what, do whatever you want. Create a pull request if you built an uploading feature...<sup><sup>
 
