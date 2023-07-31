@@ -2,7 +2,7 @@
 
 ## OnlyFriends
 
-A real-time message board for only your friends! Where you can only sign in with a secret code. Functionalities include posts and comments creation, editing and removal.
+A real-time message board for only your friends! Where you can only sign in with a secret code. Functionalities include include post creation, editing, removal, and comment.
 
 ## Technology used
 
