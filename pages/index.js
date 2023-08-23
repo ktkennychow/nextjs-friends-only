@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className='shadow-xl shadow-blue-500 hover:shadow-blue-600 rounded-md'>
       <Head>
-        <title>OnlyFriends</title>
+        <title>FriendsOnly</title>
         <meta
           name='description'
           content='Connect with your friends'
