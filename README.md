@@ -1,8 +1,8 @@
 # What is this?
 
-## OnlyFriends
+## FriendsOnly
 
-A real-time message board for only your friends! Where you can only sign in with a secret code. Functionalities include posts and comments creation, editing and removal.
+A real-time message board for only your friends! Where you can only sign in with a secret code. Functionalities include include post creation, editing, removal, and comment.
 
 ## Technology used
 
@@ -15,7 +15,7 @@ This is built with Next.js 13.3.0 bootstrapped with [`create-next-app`] (page ro
 
 ## If you insist
 
-My own OnlyFriends message board is live at [https://nextjs-onlyfriends.vercel.app/](https://nextjs-onlyfriends.vercel.app/).
+My own FriendsOnly message board is live at [https://nextjs-onlyfriends.vercel.app/](https://nextjs-onlyfriends.vercel.app/).
 
 My birthday is December 11th 😉.
 
@@ -44,10 +44,3 @@ Don't forget to add NEXT_PUBLIC_INVITECODE=[`YOUR OWN INVITE CODE`] in your .env
 
 Have fun!
 
-## DISCLAIMER
-
-This open-sourced project is not associated with OnlyFans, there is no photo uploading feature nor payment system in place.
-
-<sup><sup>No, don't use this project with your fans, please...<sup><sup>
-
-<sup><sup>You know what, do whatever you want. Create a pull request if you built an uploading feature or payment system integration...<sup><sup>
